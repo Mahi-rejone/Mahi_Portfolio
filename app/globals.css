@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+:root {
+  --black: oklab(22.213% 0 -0.00003);
+  --dark: oklab(22.387999999999998% 0.00005 -0.02431);
+  --white: oklab(97.015% 0 -0.00011);
+  --light: oklab(86.03699999999999% -0.00887 -0.00853);
+  --blue: oklab(47.343% -0.00394 -0.27672);
+  --green: oklab(69.58800000000001% -0.14217 0.04481);
+  --pink: oklab(78.336% 0.08325 -0.05762);
+  --lightBlue: oklab(75.454% -0.01115 -0.0512);
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+@theme inline {
+  --color-dark: var(--dark);
+  --color-light: var(--light);
+  --color-black: var(--black);
+  --color-white: var(--white);
+  --color-blue: var(--blue);
+  --color-green: var(--green);
+  --color-pink: var(--pink);
+  --color-lightBlue: var(--lightBlue);
+  --font-primary: var(--font-montserrat);
+  --font-archivo-black: "Archivo Black", sans-serif;
+}
+
+@theme {
+  --animate-spin-very-slow: spin 8s linear infinite;
+  --font-archivo-black: "Archivo Black", sans-serif;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@layer utilities {
+  .bg-hero-gradient {
+    background-image: linear-gradient(to top right, var(--pink), var(--light));
+  }
+
+  .animate-marquee-left {
+    animation: marquee-left 20s linear infinite;
+  }
+
+  .animate-marquee-right {
+    animation: marquee-right 20s linear infinite;
+  }
+
+  .font-birthstone {
+    font-family: var(--font-birthstone);
+  }
+
+  .background-image {
+    background: repeating-radial-gradient(
+      rgba(0, 0, 0, 0.6) 2px,
+      var(--color-light) 5px,
+      var(--color-light) 150px
+    );
+  }
+  .background-light {
+    background: var(--color-light);
+  }
+}
