@@ -1,0 +1,10 @@
+export { siteConfig } from "./site";
+export { navItems, ctaLabel } from "./navigation";
+export { socialLinks, cv } from "./social";
+export { hero } from "./hero";
+export { pitch } from "./pitch";
+export { about } from "./about";
+export { skills } from "./skills";
+export { projects, projectsList } from "./projects";
+export { services } from "./services";
+export { contact } from "./contact";
