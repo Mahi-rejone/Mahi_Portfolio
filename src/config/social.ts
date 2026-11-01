@@ -13,4 +13,4 @@ export const socialLinks = [
  * CV / resume. TODO: put your file in /public (e.g. /public/Mahi-CV.pdf) and set href to "/Mahi-CV.pdf".
  * While href is "" the download button is hidden.
  */
-export const cv = { label: "Download CV", href: "" };
+export const cv = { label: "Download CV", href: "/dummy.pdf" };

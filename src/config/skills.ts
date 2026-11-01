@@ -12,9 +12,13 @@ export const skills = {
     {
       title: "Frontend",
       description: "Interfaces, styling and motion.",
-      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP"],
+      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP", "Redux"],
     },
-    { title: "Backend & Databases", description: "Servers, APIs and data.", items: [] },
-    { title: "Tools & Workflow", description: "How I build and ship.", items: [] },
+    {
+      title: "Backend & Databases",
+      description: "Servers, APIs and data.",
+      items: ["Node.js", "Express", "oAuth", "PostgreSQL", "MongoDB", "Prisma" ,"RestApi"],
+    },
+    { title: "Tools & Workflow", description: "How I build and ship.", items: ["Github", "Docker", "AWS", "Vercel"] },
   ] satisfies SkillCategory[],
 };

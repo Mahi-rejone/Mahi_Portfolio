@@ -11,32 +11,37 @@ export const projects = {
 export const projectsList = [
   {
     id: 1,
-    title: "Project Name One",
+    title: "BloodFlow",
     description:
-      "Demo card. Replace this with one or two sentences about what the project does and the problem it solves.",
+      "A full-stack blood donation platform that connects donors, patients, hospitals and blood banks, with verified donations and role-based management.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    github: "",
-    live: "",
-    demo: true,
+    image: "/images/projects/bloodflow.png",
+    github: "https://github.com/Mahi-rejone/Bloodflow",
+    live: "https://bloodflow-kappa.vercel.app/",
+    demo: false,
   },
   {
     id: 2,
-    title: "Project Name Two",
+    title: "Movie Ticket Booking App",
     description:
       "Demo card. Replace this with one or two sentences about what the project does and the problem it solves.",
     tags: ["React", "Node.js", "MongoDB"],
     github: "",
-    live: "",
-    demo: true,
+    live: "https://quickshow.vercel.app/",
+    image:
+      "https://greatstack.dev/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FPez37wmUaQM%2Fmaxresdefault.jpg&w=828&q=75",
+    demo: false,
   },
   {
     id: 3,
-    title: "Project Name Three",
+    title: "Instacart-Groceruy-Delivary-App",
     description:
       "Demo card. Replace this with one or two sentences about what the project does and the problem it solves.",
-    tags: ["Tag One", "Tag Two", "Tag Three"],
-    github: "",
-    live: "",
-    demo: true,
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/Mahi-rejone/E-commers",
+    live: "https://e-commers-two-nu.vercel.app/",
+    image:
+      "https://greatstack.dev/_next/image?url=http%3A%2F%2Fimg.youtube.com%2Fvi%2FsaiDl2Qacm8%2Fmaxresdefault.jpg&w=828&q=75",
+    demo: false,
   },
 ] satisfies ProjectItem[];

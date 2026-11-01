@@ -48,10 +48,10 @@ export default function Navbar() {
         className="flex items-center gap-2 rounded-full"
       >
         <Image
-          src="/images/logo.png"
+          src="/images/logo2.png"
           alt={`${siteConfig.brand} – back to top`}
-          width={40}
-          height={40}
+          width={70}
+          height={70}
           className="h-8 w-8 rounded-full sm:h-9 sm:w-9 md:h-10 md:w-10"
         />
       </a>
