@@ -14,7 +14,7 @@ export const projectsList = [
     title: "BloodFlow",
     description:
       "A full-stack blood donation platform that connects donors, patients, hospitals and blood banks, with verified donations and role-based management.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tags: ["Next.js", "TypeScript", "Redux Toolkit (RTK Query)", "Tailwind CSS", "Ant Design", "shadcn/ui", "Express.js", "Prisma", "PostgreSQL (Neon)", "Zod", "JWT", "Resend", "SSLCommerz", "Vercel"],
     image: "/images/projects/bloodflow.png",
     github: "https://github.com/Mahi-rejone/Bloodflow",
     live: "https://bloodflow-kappa.vercel.app/",
